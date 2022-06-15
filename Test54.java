@@ -12,7 +12,13 @@ public class Test54 {
 
         try {
             FileReader reader = new FileReader("art.txt");
-            int data =
+            int data = reader.read();
+            while(data != -1) {
+                System.out.print((char)data);
+                data = reader.read();
+            }
+
+            reader.close();
             
         } catch (FileNotFoundException e) {
             // TODO Auto-generated catch block
