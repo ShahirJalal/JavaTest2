@@ -1,5 +1,6 @@
 package Test48;
 
-public class Predator {
+public interface Predator {
     
+    void hunt();
 }

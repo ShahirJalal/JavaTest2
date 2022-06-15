@@ -1,5 +1,6 @@
 package Test48;
 
-public class Prey {
+public interface Prey {
     
+    void flee();
 }
