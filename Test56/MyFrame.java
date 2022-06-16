@@ -8,7 +8,7 @@ public class MyFrame extends JFrame {
     
     MyFrame() {
 
-        this.setTitle("QUBIKOM.exe");
+        this.setTitle("QUBIKOM");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setResizable(false);
         this.setSize(420,420);
