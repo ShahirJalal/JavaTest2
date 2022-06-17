@@ -22,7 +22,7 @@ public class Main {
         label.setIcon(image);
         label.setHorizontalTextPosition(JLabel.CENTER);
         label.setVerticalTextPosition(JLabel.CENTER);
-        label.setForeground(new Color(0x00FF00));
+        label.setForeground(new Color(0xFFFFFF));
         label.setFont(new Font("MV Boli", Font.PLAIN,20));
         label.setIconTextGap(0);
         label.setBackground(Color.BLACK);
