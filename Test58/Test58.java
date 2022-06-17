@@ -1,6 +1,7 @@
 package Test58;
 
 import java.awt.Color;
+import java.awt.LayoutManager;
 
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
@@ -17,6 +18,8 @@ public class Test58 {
         JLabel label = new JLabel();
         label.setText("Hello World!");
         label.setIcon(icon);
+        label.setVerticalAlignment(JLabel.TOP);
+        label.setHorizontalAlignment(JLabel.RIGHT);
 
         JPanel redPanel = new JPanel();
         redPanel.setBackground(Color.blue);
@@ -29,7 +32,7 @@ public class Test58 {
         JPanel greenPanel = new JPanel();
         greenPanel.setBackground(Color.yellow);
         greenPanel.setBounds(0, 250, 500, 250);
-        //greenPanel.setLayout(new BorderLayout());
+       // greenPanel.setLayout(new BorderLayout());
 
         JFrame frame = new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
