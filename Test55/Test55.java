@@ -14,7 +14,7 @@ public class Test55 {
         
         Scanner scanner = new Scanner(System.in);
 
-        File file = new File("A_New_Leaf.wav");
+        File file = new File("Test55/A_New_Leaf.wav");
         AudioInputStream audioStream = AudioSystem.getAudioInputStream(file);
         Clip clip = AudioSystem.getClip();
         clip.open(audioStream);
