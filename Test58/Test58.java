@@ -2,7 +2,6 @@ package Test58;
 
 import java.awt.Color;
 
-import javax.imageio.ImageIO;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -13,10 +12,11 @@ public class Test58 {
          
         // JPanel = a GUI component that function as a container to hold other components
 
-        ImageIcon image = new ImageIcon("");
+        ImageIcon icon = new ImageIcon("thumbsup.png");
 
         JLabel label = new JLabel();
         label.setText("Hello World");
+        label.setIcon(icon);
 
         JPanel redPanel = new JPanel();
         redPanel.setBackground(Color.red);
@@ -35,6 +35,7 @@ public class Test58 {
         frame.setLayout(null);
         frame.setSize(750,750);
         frame.setVisible(true);
+        redPanel.add(label);
         frame.add(redPanel);
         frame.add(bluePanel);
         frame.add(greenPanel);
