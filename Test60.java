@@ -4,6 +4,8 @@ public class Test60 {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(500, 500);
         frame.setLayout(new BorderLayout(10, 10));
+        frame.setVisible(True);
+        
     
     }
 }
