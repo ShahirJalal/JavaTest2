@@ -13,7 +13,7 @@ public class Test60 {
         JPanel panel5 = new JPanel();
         
         panel1.setBackground(Color.red);
-        p
+        panel2.setBackground(Color.green);
     
     }
 }
