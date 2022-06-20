@@ -6,9 +6,11 @@ public class Test60 {
         frame.setLayout(new BorderLayout(10, 10));
         frame.setVisible(True);
         
-        JLabel label = new JLabel();
-        
-        
+        JPanel panel1 = new JPanel();
+        JPanel panel2 = new JPanel();
+        JPanel panel3 = new JPanel();
+        JPanel panel4 = new JPanel();
+        JPanel panel5 = new JPanel();
     
     }
 }
