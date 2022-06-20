@@ -14,6 +14,8 @@ public class Test60 {
         
         panel1.setBackground(Color.red);
         panel2.setBackground(Color.green);
+        panel3.setBackground(Color.blue);
+        
     
     }
 }
