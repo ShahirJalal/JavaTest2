@@ -6,6 +6,9 @@ public class Test60 {
         frame.setLayout(new BorderLayout(10, 10));
         frame.setVisible(True);
         
+        JLabel label = new JLabel();
+        
+        
     
     }
 }
