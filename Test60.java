@@ -1,4 +1,5 @@
 import java.awt.Color;
+import java.awt.Dimension;
 import java.awt.BorderLayout;
 
 import javax.swing.JFrame;
@@ -31,6 +32,12 @@ public class Test60 {
         panel3.setBackground(Color.blue);
         panel4.setBackground(Color.yellow);
         panel5.setBackground(Color.magenta);
+
+        panel1.setPreferredSize(new Dimension(100, 100));
+        panel2.setPreferredSize(new Dimension(100, 100));
+        panel3.setPreferredSize(new Dimension(100, 100));
+        panel4.setPreferredSize(new Dimension(100, 100));
+        panel5.setPreferredSize(new Dimension(100, 100));
         
     
     }
