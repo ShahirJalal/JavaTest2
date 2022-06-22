@@ -1,3 +1,5 @@
+package Test65;
+import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 
 public class Test65 {
@@ -17,7 +19,8 @@ public class Test65 {
         // String name = JOptionPane.showInputDialog("What is your name?: ");
         // System.out.println("Hello " + name);
 
-        JOptionPane.showOptionDialog(null, "You are awesome", "Secret message", JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.INFORMATION_MESSAGE, null, null, 0);
+        ImageIcon icon = new ImageIcon("Test65/Cool.png");
+        JOptionPane.showOptionDialog(null, "You are awesome", "Secret message", JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.INFORMATION_MESSAGE, icon, null, 0);
         
     }
 }
