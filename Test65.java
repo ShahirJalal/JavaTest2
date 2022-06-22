@@ -7,7 +7,11 @@ public class Test65 {
         // JOptionPane = pop up a standard dialog box that prompts users for a value
         //               informs them of something.
 
-        JOptionPane.showMessageDialog(null, "This is some useless infor", "title", JOptionPane.PLAIN_MESSAGE);
+        //JOptionPane.showMessageDialog(null, "This is some useless info", "title", JOptionPane.PLAIN_MESSAGE);
+        JOptionPane.showMessageDialog(null, "This is some useless info", "title", JOptionPane.INFORMATION_MESSAGE);
+        //JOptionPane.showMessageDialog(null, "This is some useless info", "title", JOptionPane.QUESTION_MESSAGE);
+        //JOptionPane.showMessageDialog(null, "This is some useless info", "title", JOptionPane.WARNING_MESSAGE);
+        //JOptionPane.showMessageDialog(null, "This is some useless info", "title", JOptionPane.ERROR_MESSAGE);
 
 
     }
