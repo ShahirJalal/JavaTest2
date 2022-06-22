@@ -7,7 +7,7 @@ public class Test65 {
         // JOptionPane = pop up a standard dialog box that prompts users for a value
         //               informs them of something.
 
-        JOptionPane.showMessageDialog(parentComponent, message, title, messageType);
+        JOptionPane.showMessageDialog(null, "This is some useless infor", "title", JOptionPane.PLAIN_MESSAGE);
 
 
     }
