@@ -16,3 +16,10 @@ public class MyFrame extends JFrame implements ActionListener{
 	JButton button;
 	JTextField textField;
 	
+	MyFrame(){
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setLayout(new FlowLayout());
+		
+		button = new JButton("Submit");
+		button.addActionListener(this);
+		
