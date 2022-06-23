@@ -11,3 +11,8 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JTextField;
 
+public class MyFrame extends JFrame implements ActionListener{
+
+	JButton button;
+	JTextField textField;
+	
