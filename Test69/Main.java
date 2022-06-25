@@ -4,7 +4,7 @@ public class Main {
         
         // JComboBox = A component that conbines a button or editable field and a drop-down list
 
-        new MyFrame();
+        new SliderDemo();
         
     }
 }
