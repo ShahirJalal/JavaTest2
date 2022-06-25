@@ -1,41 +1,41 @@
-import java.awt.*;
-import java.awt.event.*;
-import javax.swing.*;
+// import java.awt.*;
+// import java.awt.event.*;
+// import javax.swing.*;
 
-public class MyFrame extends JFrame implements ActionListener {
+// public class MyFrame extends JFrame implements ActionListener {
 
-    JComboBox comboBox;
+//     JComboBox comboBox;
 
-    MyFrame() {
-        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setLayout(new FlowLayout());
+//     MyFrame() {
+//         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//         this.setLayout(new FlowLayout());
 
-        // Must use wrapper class
-        String[] animals = {"dog", "cat", "bird"};
+//         // Must use wrapper class
+//         String[] animals = {"dog", "cat", "bird"};
 
-        comboBox = new JComboBox(animals);
-        comboBox.addActionListener(this);
+//         comboBox = new JComboBox(animals);
+//         comboBox.addActionListener(this);
 
-        // comboBox.setEditable(true);
-        // System.out.println(comboBox.getItemCount());
-        // comboBox.addItem("horse");
-        // comboBox.insertItemAt("pig", 0);
-        // comboBox.setSelectedIndex(0);
-        // comboBox.removeItem("cat");
-        // comboBox.removeItemAt(0);
-        comboBox.removeAllItems();
+//         // comboBox.setEditable(true);
+//         // System.out.println(comboBox.getItemCount());
+//         // comboBox.addItem("horse");
+//         // comboBox.insertItemAt("pig", 0);
+//         // comboBox.setSelectedIndex(0);
+//         // comboBox.removeItem("cat");
+//         // comboBox.removeItemAt(0);
+//         comboBox.removeAllItems();
 
-        this.add(comboBox);
-        this.pack();
-        this.setVisible(true);
-    }
+//         this.add(comboBox);
+//         this.pack();
+//         this.setVisible(true);
+//     }
 
-    @Override
-    public void actionPerformed(ActionEvent e) {
-        if(e.getSource() == comboBox) {
-            System.out.println(comboBox.getSelectedItem());
-            // System.out.println(comboBox.getSelectedIndex());
-        }
-    }
+//     @Override
+//     public void actionPerformed(ActionEvent e) {
+//         if(e.getSource() == comboBox) {
+//             System.out.println(comboBox.getSelectedItem());
+//             // System.out.println(comboBox.getSelectedIndex());
+//         }
+//     }
     
-}
+// }
