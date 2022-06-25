@@ -10,6 +10,7 @@ public class MyFrame extends JFrame implements ActionListener {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLayout(new FlowLayout());
 
+        // Must use wrapper class
         String[] animals = {"dog", "cat", "bird"};
 
         comboBox = new JComboBox(animals);
@@ -22,7 +23,7 @@ public class MyFrame extends JFrame implements ActionListener {
         // comboBox.setSelectedIndex(0);
         // comboBox.removeItem("cat");
         // comboBox.removeItemAt(0);
-        comboBox.removeAll();
+        comboBox.removeAllItems();
 
         this.add(comboBox);
         this.pack();
